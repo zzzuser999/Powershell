@@ -1,0 +1,1 @@
+Set-PSSessionConfiguration -Name Microsoft.Powershell -ShowSecurityDescriptorUI -Force

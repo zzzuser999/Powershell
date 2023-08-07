@@ -1,0 +1,1 @@
+(get-acl ‪D:\EPMStageData\StageEPMMaestro).access | ft IdentityReference,FileSystemRights,AccessControlType,IsInherited,InheritanceFlags -auto
