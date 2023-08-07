@@ -1,0 +1,8 @@
+icacls "\\?\f:\EPMPrdData\prdEPMMaestro" /grant:r EUROPE\CHCHFUM:(OI)(CI)M /T /Q
+icacls "\\?\f:\EPMPrdData\prdEPMMaestro" /grant:r EUROPE\CHAAHFM:(OI)(CI)M /T /Q
+icacls "\\?\f:\EPMPrdData\prdEPMMaestro" /grant:r EUROPE\CHADHFM:(OI)(CI)M /T /Q
+icacls "\\?\f:\EPMPrdData\prdEPMMaestro" /grant:r EUROPE\CHAHHFM:(OI)(CI)M /T /Q
+icacls "\\?\f:\EPMPrdData\prdEPMMaestro" /grant:r EUROPE\CHJELEF:(OI)(CI)M /T /Q
+icacls "\\?\f:\EPMPrdData\prdEPMMaestro" /grant:r EUROPE\CHGAKVI:(OI)(CI)M /T /Q
+icacls "\\?\f:\EPMPrdData\prdEPMMaestro" /grant:r EUROPE\CHSISUS:(OI)(CI)M /T /Q
+icacls "\\?\f:\EPMPrdData\prdEPMMaestro" /grant:r EUROPE\CHTOMAS:(OI)(CI)M /T /Q
