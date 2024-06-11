@@ -1,0 +1,1 @@
+﻿Get-NetAdapterStatistics | select @{Name="GB_Received";Expression={[System.Math]::Round($_.ReceivedBytes/1GB)}}, @{Name="GB_Sent";Expression={[System.Math]::Round($_.SentBytes/1GB)}} | ft -auto

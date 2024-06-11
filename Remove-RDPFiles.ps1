@@ -1,0 +1,1 @@
+﻿Get-ChildItem -Path C:\Users\PLMAMRO7\Downloads *.rdp | foreach { Remove-Item -Path $_.FullName }

@@ -1,0 +1,52 @@
+**********************
+PowerShell transcript start
+Start time: 20230511132104
+Username: ABB\pl-admin-mm11
+RunAs User: ABB\pl-admin-mm11
+Configuration Name: 
+Machine: PL-L-7324839 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -WorkingDirectory ~
+Process ID: 8616
+PSVersion: 7.2.6
+PSEdition: Core
+GitCommitId: 7.2.6
+OS: Microsoft Windows 10.0.19044
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.6
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+[11.05-2023 13:21:04][Script]: >>> THE SCRIPT HAS STARTED WORKING <<<
+[11.05-2023 13:21:04][Script]: Start logging into file 'Process-11052023-132104.log'
+[11.05-2023 13:21:04][Script]: Start generating report for all computers
+[11.05-2023 13:21:04][Script]: Get Application Details from XC-S-ZW01614.xc.abb.com
+[11.05-2023 13:24:33][Script]: Get Application Details from XC-S-ZW01616.xc.abb.com
+[11.05-2023 13:27:56][Script]: Get Application Details from XC-S-ZW01617.xc.abb.com
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\PLMAMRO7\Documents\Scripts\SoftwareAudit> cls
+PS C:\Users\PLMAMRO7\Documents\Scripts\SoftwareAudit> ping XE-S-ABCDB02P.xe.abb.com
+
+Pinging XE-S-ABCDB02P.xe.abb.com [10.16.107.80] with 32 bytes of data:
+Control-C
+PS C:\Users\PLMAMRO7\Documents\Scripts\SoftwareAudit> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\PLMAMRO7\Documents\Scripts\SoftwareAudit> ping XE-S-ABCDB01P.xe.abb.com
+
+Pinging XE-S-ABCDB01P.xe.abb.com [10.16.107.78] with 32 bytes of data:
+Reply from 10.16.107.78: bytes=32 time=76ms TTL=118
+Reply from 10.16.107.78: bytes=32 time=92ms TTL=118
+
+Ping statistics for 10.16.107.78:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 76ms, Maximum = 92ms, Average = 84ms
+Control-C
+PS C:\Users\PLMAMRO7\Documents\Scripts\SoftwareAudit> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+**********************
+PowerShell transcript end
+End time: 20230511181138
+**********************

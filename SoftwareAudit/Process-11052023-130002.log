@@ -1,0 +1,33 @@
+**********************
+PowerShell transcript start
+Start time: 20230511130002
+Username: ABB\pl-admin-mm11
+RunAs User: ABB\pl-admin-mm11
+Configuration Name: 
+Machine: PL-L-7324839 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -WorkingDirectory ~
+Process ID: 8616
+PSVersion: 7.2.6
+PSEdition: Core
+GitCommitId: 7.2.6
+OS: Microsoft Windows 10.0.19044
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.6
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+[11.05-2023 13:00:02][Script]: >>> THE SCRIPT HAS STARTED WORKING <<<
+[11.05-2023 13:00:02][Script]: Start logging into file 'Process-11052023-130002.log'
+[11.05-2023 13:00:02][Script]: Start generating report for all computers
+[11.05-2023 13:00:02][Script]: Get Application Details from XE-S-XHFMDEV01D.xe.abb.com
+[11.05-2023 13:00:36][Script]: Generate Report in the CSV format
+[11.05-2023 13:00:36][Script]: The CheckSum for .\11_05_2023-CoronaSOX.csv is: 95F7959D03113062D8C346D50DCD11D2E65BB69326E6734F23890F10E1BC20DA
+[11.05-2023 13:00:36][Script]: Generate Report in the HTML format
+[11.05-2023 13:00:36][Script]: The CheckSum for .\CoronaSox.html is: 0603663DC4B6F59503C5C0523CC2207398F6390C5C0FDA7FEAB5B98CEB5D02B2
+[11.05-2023 13:00:36][Script]: Generate Report in the GUI
+[11.05-2023 13:00:37][Script]: >>> THE SCRIPT HAS FINISHED THE JOB <<<
+**********************
+PowerShell transcript end
+End time: 20230511130037
+**********************
