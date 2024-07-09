@@ -5,4 +5,4 @@ get-process | Group-Object -Property ProcessName |
         Mem_MB = [math]::Round(($_.Group|Measure-Object WorkingSet64 -Sum).Sum / 1MB, 0)
         ProcessCount = $_.Count
     }
-} | sort -desc Mem_MB | Select-Object -First 25
+} | sort -desc Mem_MB | Select-Object -First 10
