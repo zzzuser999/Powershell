@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 schtasks /change /TN \EPMTools\SoxExtractionToolABACUS10_Rules /RU EUROPE\gMSA-XHFM-TSK-P$ /RP
 
+=======
+schtasks /change /TN \EPMTools\SoxExtractionToolABACUS10_Rules /RU EUROPE\gMSA-XHFM-TSK-P$ /RP
+
+>>>>>>> origin/main
 schtasks.exe /query /s localhost /V /FO CSV | ConvertFrom-Csv |  Where {$_.TaskName -like "\epmtools*" } | Select-Object TaskName, "Schedule Type", "Next Run Time", Status, "Last Run Time", "Last Result", Author, "Scheduled Task State", "Run As User"
