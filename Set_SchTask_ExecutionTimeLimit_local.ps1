@@ -1,9 +1,9 @@
-# Store secured password 
+﻿# Store secured password 
 #  $securePassword = ConvertTo-SecureString 'PASSWORD' -AsPlainText -Force
 #  $securePassword | ConvertFrom-SecureString | Out-File 'S:\ABBOps\SchTasksSettings\SecurePassword.txt'
 
 # Define the folder containing the scheduled tasks
-$folder = "EPM Maestro"
+$folder = "MMR"
 
 # Define value for the "ExecutionTimeLimit" 
 $timeLimit = "PT3H"
@@ -12,7 +12,7 @@ $timeLimit = "PT3H"
 $user = "ABB\PL-XHFM-TSKSCH-STG"  # Replace with the correct domain and username
 
 # Read the password from the secure file
-$passwordFile = 'S:\ABBOps\SchTasksSettings\SecurePassword.txt'
+$passwordFile = 'C:\tmp\SchTasksSettings\SecurePassword.txt'
 $securePassword = Get-Content $passwordFile | ConvertTo-SecureString
 $password = [Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($securePassword))
 
@@ -34,7 +34,7 @@ try {
                 $settings.ExecutionTimeLimit = $timeLimit
 
                 # Set the updated task settings
-                Set-ScheduledTask -TaskName $task.TaskName -TaskPath $task.TaskPath -Settings $settings -User $user -Password $password
+                Set-ScheduledTask -TaskName $task.TaskName -TaskPath $task.TaskPath -Settings $settings -User $user #-Password $password
             } catch {
                 Write-Host "Failed to update task '$taskName'. Error: $_" -ForegroundColor Red
             }
