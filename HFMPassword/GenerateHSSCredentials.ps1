@@ -1,0 +1,1 @@
+﻿Get-Credential -UserName "hssUser" -Message "Please provide password for HSS Rest connection." | Export-CliXml HSSCredentials.xml
